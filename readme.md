@@ -1,5 +1,5 @@
 here we add so may functions
-##Functions
+## Functions
 1)getAllProducts
 2)searchProduct
 3)getProductDetails
