@@ -83,6 +83,7 @@ export const getProductDetails = async (req, res, next) => {
     //2)add one commit
     //3)third change i did
     //4)i add fourth comment
+    //5)i add fifth commit
     const productDetails = await getProductDetailsRepo(req.params.id);
     if (productDetails) {
       res.status(200).json({ success: true, productDetails });
